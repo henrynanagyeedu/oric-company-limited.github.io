@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — ORIC COMPANY LIMT.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-logo"></span><span class="brand-name">ORIC COMPANY LIMT</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">?</button>
+      <nav class="nav-links" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="kicker">Let’s talk</p>
+      <h1>Start your project</h1>
+      <p>Tell us about your goals and timeline. We’ll get back within 1–2 business days.</p>
+    </section>
+
+    <section class="section container" aria-labelledby="contact-form">
+      <h2 id="contact-form">Contact form</h2>
+      <form class="form" action="#" method="post" novalidate>
+        <div class="form-row">
+          <div class="form-col-6">
+            <label class="label" for="name">Name</label>
+            <input class="input" id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-col-6">
+            <label class="label" for="email">Email</label>
+            <input class="input" id="email" name="email" type="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-col-12">
+            <label class="label" for="company">Company</label>
+            <input class="input" id="company" name="company" type="text" placeholder="Company name" />
+          </div>
+          <div class="form-col-12">
+            <label class="label" for="budget">Estimated budget</label>
+            <input class="input" id="budget" name="budget" type="text" placeholder="$20k–$100k" />
+          </div>
+          <div class="form-col-12">
+            <label class="label" for="message">Project details</label>
+            <textarea class="textarea" id="message" name="message" rows="6" placeholder="What are you building?" required></textarea>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <span class="small">By sending, you agree to our <a href="#">Privacy</a> and <a href="#">Terms</a>.</span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container columns">
+      <div class="col"><h4>ORIC COMPANY</h4><p class="small">Modern electricity usage control,Digital monitoring, Continuous power distridution, and Renewable solutions.</p></div>
+      <div class="col"><h4>Company</h4><p><a href="about.html">About</a></p><p><a href="services.html">Services</a></p><p><a href="contact.html">Contact</a></p></div>
+      <div class="col"><h4>Legal</h4><p><a href="#">Privacy</a></p><p><a href="#">Terms</a></p></div>
+      <div class="col"><h4>Contact</h4><p class="small">henrygyeedu@gmail.com<br/>
+<br/>
+<b>CEO</b><br/>
+Prof.Dr.Eng HENRY NANA KWESI GYEEDU
+    
+</p></div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
